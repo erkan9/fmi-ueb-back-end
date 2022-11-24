@@ -1,0 +1,218 @@
+2022-11-24 11:55:49.013  INFO 3452 --- [main] org.erkamber.Main                        : Starting Main using Java 11.0.17 on NTB945 with PID 3452 (C:\Users\erkan.kamber\Desktop\Note\Exercise Project\fmi-ueb-project\target\classes started by erkan.kamber in C:\Users\erkan.kamber\Desktop\Note\Exercise Project\fmi-ueb-project)
+2022-11-24 11:55:49.031  INFO 3452 --- [main] org.erkamber.Main                        : No active profile set, falling back to 1 default profile: "default"
+2022-11-24 11:55:50.861  INFO 3452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-24 11:55:50.966  INFO 3452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 2 JPA repository interfaces.
+2022-11-24 11:55:52.134  INFO 3452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2022-11-24 11:55:52.149  INFO 3452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-24 11:55:52.149  INFO 3452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-24 11:55:52.303  INFO 3452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-24 11:55:52.304  INFO 3452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3130 ms
+2022-11-24 11:55:53.003  INFO 3452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-24 11:55:53.298  INFO 3452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-24 11:55:54.221  INFO 3452 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 11:55:54.944  WARN 3452 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-24 11:55:55.145 DEBUG 3452 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-11-24 11:55:55.296 DEBUG 3452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2022-11-24 11:55:55.331 DEBUG 3452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-11-24 11:55:55.346 DEBUG 3452 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-11-24 11:55:55.487  INFO 3452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2022-11-24 11:55:55.506  INFO 3452 --- [main] org.erkamber.Main                        : Started Main in 7.731 seconds (JVM running for 8.839)
+2022-11-24 11:56:00.595  INFO 3452 --- [http-nio-3000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-24 11:56:00.596  INFO 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-24 11:56:00.596 DEBUG 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-11-24 11:56:00.597 DEBUG 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-11-24 11:56:00.597 DEBUG 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-11-24 11:56:00.598 DEBUG 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@a926db4
+2022-11-24 11:56:00.598 DEBUG 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@535a6697
+2022-11-24 11:56:00.599 DEBUG 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-11-24 11:56:00.599  INFO 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-11-24 11:56:00.610 DEBUG 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/products", parameters={}
+2022-11-24 11:56:00.615 DEBUG 3452 --- [http-nio-3000-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.erkamber.controllers.ProductController#getAllProducts()
+2022-11-24 11:56:00.854 DEBUG 3452 --- [http-nio-3000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-24 11:56:00.855 DEBUG 3452 --- [http-nio-3000-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2022-11-24 11:56:00.878 DEBUG 3452 --- [http-nio-3000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-24 11:56:14.087 DEBUG 3452 --- [http-nio-3000-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/users", parameters={}
+2022-11-24 11:56:14.088 DEBUG 3452 --- [http-nio-3000-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.erkamber.controllers.UserController#getUsers()
+2022-11-24 11:56:14.116 DEBUG 3452 --- [http-nio-3000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-24 11:56:14.117 DEBUG 3452 --- [http-nio-3000-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [[]]
+2022-11-24 11:56:14.120 DEBUG 3452 --- [http-nio-3000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-24 11:56:20.646 DEBUG 3452 --- [http-nio-3000-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/users", parameters={}
+2022-11-24 11:56:20.647 DEBUG 3452 --- [http-nio-3000-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.erkamber.controllers.UserController#addNewUser(UserDto)
+2022-11-24 11:56:20.721 DEBUG 3452 --- [http-nio-3000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [UserDto(id=0, username=testing, password=Testing@, email=testing@Testing.com, phoneNumber=0555415455 (truncated)...]
+2022-11-24 11:56:20.862 DEBUG 3452 --- [http-nio-3000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-24 11:56:20.863 DEBUG 3452 --- [http-nio-3000-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-11-24 11:56:20.864 DEBUG 3452 --- [http-nio-3000-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-24 11:56:23.920 DEBUG 3452 --- [http-nio-3000-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/users", parameters={}
+2022-11-24 11:56:23.920 DEBUG 3452 --- [http-nio-3000-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.erkamber.controllers.UserController#getUsers()
+2022-11-24 11:56:23.930 DEBUG 3452 --- [http-nio-3000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-24 11:56:23.930 DEBUG 3452 --- [http-nio-3000-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[UserDto(id=1, username=testing, password=$2a$10$gNcrDwvx9NgQkTnwtTby8uxgsh08kZsHqxFFaiu7qcWpXtSjhtd (truncated)...]
+2022-11-24 11:56:23.939 DEBUG 3452 --- [http-nio-3000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-24 11:56:29.908 DEBUG 3452 --- [http-nio-3000-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/products", parameters={}
+2022-11-24 11:56:29.909 DEBUG 3452 --- [http-nio-3000-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.erkamber.controllers.ProductController#addNewProduct(ProductDto)
+2022-11-24 11:56:29.952 DEBUG 3452 --- [http-nio-3000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ProductDto(productID=0, productName=testingdProduct2, productDescription=Prdoduct created for testin (truncated)...]
+2022-11-24 11:56:30.008 DEBUG 3452 --- [http-nio-3000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-24 11:56:30.009 DEBUG 3452 --- [http-nio-3000-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-11-24 11:56:30.009 DEBUG 3452 --- [http-nio-3000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-24 11:56:33.147 DEBUG 3452 --- [http-nio-3000-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/products", parameters={}
+2022-11-24 11:56:33.148 DEBUG 3452 --- [http-nio-3000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.erkamber.controllers.ProductController#addNewProduct(ProductDto)
+2022-11-24 11:56:33.150 DEBUG 3452 --- [http-nio-3000-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ProductDto(productID=0, productName=testingdProduct2, productDescription=Prdoduct created for testin (truncated)...]
+2022-11-24 11:56:33.166 ERROR 3452 --- [http-nio-3000-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "uk_57ivhy5aj3qfmdvl6vxdfjs4p"
+  Detail: Key (code)=(QeaaErT22) already exists.
+2022-11-24 11:56:33.175 DEBUG 3452 --- [http-nio-3000-exec-7] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [uk_57ivhy5aj3qfmdvl6vxdfjs4p]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2022-11-24 11:56:33.182 ERROR 3452 --- [http-nio-3000-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [uk_57ivhy5aj3qfmdvl6vxdfjs4p]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "uk_57ivhy5aj3qfmdvl6vxdfjs4p"
+  Detail: Key (code)=(QeaaErT22) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:167) ~[postgresql-42.3.6.jar:42.3.6]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:135) ~[postgresql-42.3.6.jar:42.3.6]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:58) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:43) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3279) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3885) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:84) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.22.jar:5.3.22]
+	at com.sun.proxy.$Proxy104.persist(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.22.jar:5.3.22]
+	at com.sun.proxy.$Proxy104.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:666) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.22.jar:5.3.22]
+	at com.sun.proxy.$Proxy108.save(Unknown Source) ~[na:na]
+	at org.erkamber.services.implementations.ProductServiceImpl.addNewProduct(ProductServiceImpl.java:65) ~[classes/:na]
+	at org.erkamber.controllers.ProductController.addNewProduct(ProductController.java:57) ~[classes/:na]
+	at org.erkamber.controllers.ProductController$$FastClassBySpringCGLIB$$d9828055.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.erkamber.controllers.ProductController$$EnhancerBySpringCGLIB$$ec1ce8a.addNewProduct(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2022-11-24 11:56:33.188 DEBUG 3452 --- [http-nio-3000-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2022-11-24 11:56:33.190 DEBUG 3452 --- [http-nio-3000-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2022-11-24 11:56:33.196 DEBUG 3452 --- [http-nio-3000-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-24 11:56:33.196 DEBUG 3452 --- [http-nio-3000-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Nov 24 11:56:33 EET 2022, status=500, error=Internal Server Error, path=/api/v1/produ (truncated)...]
+2022-11-24 11:56:33.203 DEBUG 3452 --- [http-nio-3000-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2022-11-24 11:57:53.018 DEBUG 3452 --- [http-nio-3000-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/products", parameters={}
+2022-11-24 11:57:53.019 DEBUG 3452 --- [http-nio-3000-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.erkamber.controllers.ProductController#addNewProduct(ProductDto)
+2022-11-24 11:57:53.020 DEBUG 3452 --- [http-nio-3000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ProductDto(productID=0, productName=testingdProduct21, productDescription=Prdoduct created for testi (truncated)...]
+2022-11-24 11:57:53.026 DEBUG 3452 --- [http-nio-3000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-24 11:57:53.026 DEBUG 3452 --- [http-nio-3000-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-11-24 11:57:53.026 DEBUG 3452 --- [http-nio-3000-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-24 11:57:56.697 DEBUG 3452 --- [http-nio-3000-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/products", parameters={}
+2022-11-24 11:57:56.697 DEBUG 3452 --- [http-nio-3000-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.erkamber.controllers.ProductController#getAllProducts()
+2022-11-24 11:57:56.701 DEBUG 3452 --- [http-nio-3000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-11-24 11:57:56.702 DEBUG 3452 --- [http-nio-3000-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [[ProductDto(productID=1, productName=testingdProduct2, productDescription=Prdoduct created for testi (truncated)...]
+2022-11-24 11:57:56.703 DEBUG 3452 --- [http-nio-3000-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-11-24 13:07:16.896  WARN 3452 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m53s471ms857µs800ns).
+2022-11-24 13:12:50.829  INFO 3452 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 13:12:50.831  INFO 3452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-24 13:12:50.840  INFO 3452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
